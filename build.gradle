@@ -1,0 +1,33 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    apply from: "versions.gradle"
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath deps.androidGradlePlugin
+        classpath deps.kotlin.gradlePlugin
+        classpath deps.dokkaGradlePlugin
+        classpath deps.gradleDependencyGraphGeneratorPlugin
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+apply plugin: "com.vanniktech.dependency.graph.generator"
+apply from: "gradle/dependencyGraph.gradle"

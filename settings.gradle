@@ -1,0 +1,11 @@
+rootProject.name = "odpt"
+include(
+        ":model",
+        ":testutil",
+        ":core-geojson",
+        "core-v4:core-v4-common",
+        "core-v4:core-v4-train",
+        "core-v4:core-v4-bus",
+        "api-impl:api-impl-tokyochallenge",
+        "api-impl:api-impl-odptdatacenter"
+)

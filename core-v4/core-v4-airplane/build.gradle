@@ -1,0 +1,59 @@
+plugins {
+    id "kotlin"
+    id "java-library"
+    id "org.jetbrains.dokka"
+    id "java-gradle-plugin"
+    id "maven-publish"
+}
+
+dependencies {
+    implementation project(":model")
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    implementation deps.kotlin.stdlib
+    implementation deps.kotlinxCoroutines.core
+
+    testImplementation deps.junit
+    testImplementation deps.assertj
+
+    // Moshi
+    implementation deps.moshi.runtime
+    implementation deps.moshi.kotlin
+    // retrofit
+    implementation deps.retrofit2.runtime
+    implementation deps.retrofit2.converterMoshi
+    implementation deps.retrofit2.kotlinCoroutinesAdapter
+    // OkHttp
+    implementation deps.okhttp3.runtime
+    implementation deps.okhttp3.loggingInterceptor
+    testImplementation deps.okhttp3.mockwebserver
+    // javax.inject
+    implementation deps.javaxInject
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+group = "${GROUP_ID}"
+version = "${VERSION}"
+
+task sourcesJar(type: Jar) {
+    from sourceSets.main.allJava
+    archiveClassifier = "sources"
+}
+
+task javadocJar(type: Jar) {
+    from javadoc
+    archiveClassifier = "javadoc"
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId = "${ARTIFACT_ID}"
+            from components.java
+            artifact sourcesJar
+            artifact javadocJar
+        }
+    }
+}

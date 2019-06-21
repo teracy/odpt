@@ -1,0 +1,43 @@
+plugins {
+    id "kotlin"
+    id "java-library"
+    id "org.jetbrains.dokka"
+    id "java-gradle-plugin"
+    id "maven-publish"
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    implementation deps.kotlin.stdlib
+
+    implementation deps.junit
+    implementation deps.assertj
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+group = "${GROUP_ID}"
+version = "${VERSION}"
+
+task sourcesJar(type: Jar) {
+    from sourceSets.main.allJava
+    archiveClassifier = "sources"
+}
+
+task javadocJar(type: Jar) {
+    from javadoc
+    archiveClassifier = "javadoc"
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication)  {
+            artifactId = "${ARTIFACT_ID}"
+            from components.java
+            artifact sourcesJar
+            artifact javadocJar
+        }
+    }
+}
