@@ -11,8 +11,8 @@ dependencies {
 
     implementation deps.kotlin.stdlib
 
-    implementation deps.junit
-    implementation deps.assertj
+    testImplementation deps.junit
+    testImplementation deps.assertj
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8

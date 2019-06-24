@@ -104,11 +104,6 @@ data class OdptStation(
     val railwayId: RailwayId
         get() = RailwayId(railway)
     /**
-     * 駅出入口を表す地物情報IDのリスト
-     */
-    val exitIdList: List<PlaceId>?
-        get() = exitList?.map { PlaceId(it) }
-    /**
      * 乗り換え可能路線の鉄道路線IDのリスト
      */
     val connectingRailwayIdList: List<RailwayId>?

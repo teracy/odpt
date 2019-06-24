@@ -90,7 +90,7 @@ class OdptStationTimetableTest {
             assertThat(stationTimetableObject0.viaRailwayList).isNull()
             assertThat(stationTimetableObject0.train).isNull()
             assertThat(stationTimetableObject0.trainNumber).isNull()
-            assertThat(stationTimetableObject0.trainType).isNotNull
+            assertThat(stationTimetableObject0.trainType).isNotNull()
             assertThat(stationTimetableObject0.trainType!!).isEqualTo("odpt.TrainType:JR-East.Rapid")
             assertThat(stationTimetableObject0.trainName).isNull()
             assertThat(stationTimetableObject0.trainOwner).isNull()

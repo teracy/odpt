@@ -115,7 +115,7 @@ obj/
 
 # IntelliJ IDEA
 *.iws
-/out/
+out/
 
 # User-specific configurations
 .idea/shelf/

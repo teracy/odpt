@@ -218,11 +218,6 @@ class PassengerSurveyId(id: String) : OdptId(id) {
 }
 
 /**
- * 地物情報ID
- */
-class PlaceId(id: String) : OdptId(id)
-
-/**
  * 鉄道方面ID（路線進行方向情報のID）
  * @param id IDの値。命名ルール：「odpt.RailDirection:進行方向」または「odpt.RailDirection:会社名.進行方向」
  */

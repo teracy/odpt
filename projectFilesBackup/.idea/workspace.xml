@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b7d3ad8-4d1c-46a3-8b18-f9bdfd734fa4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-v4/core-v4-train/src/main/java/com/github/teracy/odpt/core/v4/train/response/OdptStation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core-v4/core-v4-train/src/main/java/com/github/teracy/odpt/core/v4/train/response/OdptStation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptStationTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptStationTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptStationTimetableTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptStationTimetableTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/com/github/teracy/odpt/model/OdptId.kt" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/com/github/teracy/odpt/model/OdptId.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/test/java/com/github/teracy/odpt/model/OdptIdTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/test/java/com/github/teracy/odpt/model/OdptIdTest.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/api-impl/out/" />
+    <ignored path="$PROJECT_DIR$/core-geojson/out/" />
+    <ignored path="$PROJECT_DIR$/core-v4/out/" />
+    <ignored path="$PROJECT_DIR$/model/out/" />
+    <ignored path="$PROJECT_DIR$/testutil/out/" />
+    <ignored path="$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/out/" />
+    <ignored path="$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/out/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-airplane/out/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-bus/out/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-common/out/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-train/out/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/api-impl/.gradle/" />
+    <ignored path="$PROJECT_DIR$/api-impl/build/" />
+    <ignored path="$PROJECT_DIR$/core-geojson/.gradle/" />
+    <ignored path="$PROJECT_DIR$/core-geojson/build/" />
+    <ignored path="$PROJECT_DIR$/core-v4/.gradle/" />
+    <ignored path="$PROJECT_DIR$/core-v4/build/" />
+    <ignored path="$PROJECT_DIR$/model/.gradle/" />
+    <ignored path="$PROJECT_DIR$/model/build/" />
+    <ignored path="$PROJECT_DIR$/testutil/.gradle/" />
+    <ignored path="$PROJECT_DIR$/testutil/build/" />
+    <ignored path="$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/.gradle/" />
+    <ignored path="$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/build/" />
+    <ignored path="$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/.gradle/" />
+    <ignored path="$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/build/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-airplane/.gradle/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-airplane/build/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-bus/.gradle/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-bus/build/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-common/.gradle/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-common/build/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-train/.gradle/" />
+    <ignored path="$PROJECT_DIR$/core-v4/core-v4-train/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/github/teracy/odpt/model/OdptId.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="160" selection-start-line="160" selection-end-line="160" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/main/java/com/github/teracy/odpt/core/v4/train/response/OdptStation.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptStationTimetableTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="88" column="71" selection-start-line="88" selection-start-column="71" selection-end-line="88" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptPassengerSurveyTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptRailDirectionTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptStationTest.kt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/test/java/com/github/teracy/odpt/model/OdptIdTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="674" selection-start-line="674" selection-end-line="674" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>kotlinxCoroutines.android</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/versions.gradle" />
+        <option value="$PROJECT_DIR$/core-v4/core-v4-train/src/main/java/com/github/teracy/odpt/core/v4/train/TrainDataPointApiClient.kt" />
+        <option value="$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/test/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeBusApiClientDataVariationTest.kt" />
+        <option value="$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/test/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeBusApiClientTest.kt" />
+        <option value="$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/test/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeTrainApiClientDataVariationTest.kt" />
+        <option value="$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/test/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeTrainApiClientTest.kt" />
+        <option value="$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/src/test/java/com/github/teracy/odpt/api/odptdatacenter/OdptDataCenterBusApiClientTest.kt" />
+        <option value="$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/src/test/java/com/github/teracy/odpt/api/odptdatacenter/OdptDataCenterCommonApiClientTest.kt" />
+        <option value="$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/src/test/java/com/github/teracy/odpt/api/odptdatacenter/OdptDataCenterTrainApiClientTest.kt" />
+        <option value="$PROJECT_DIR$/model/src/test/java/com/github/teracy/odpt/model/OdptIdTest.kt" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/github/teracy/odpt/model/OdptId.kt" />
+        <option value="$PROJECT_DIR$/core-v4/core-v4-train/src/main/java/com/github/teracy/odpt/core/v4/train/response/OdptStation.kt" />
+        <option value="$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptStationTest.kt" />
+        <option value="$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptStationTimetableTest.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-odptdatacenter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-odptdatacenter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-odptdatacenter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-odptdatacenter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-odptdatacenter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="odptdatacenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-odptdatacenter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-tokyochallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-tokyochallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-tokyochallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-tokyochallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-tokyochallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-tokyochallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tokychallenge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api-impl-tokyochallenge" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4-train" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4-train" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4-train" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4-train" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4-train" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4-train" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4-train" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4-train" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="odpt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="odpt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core-v4-train" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/src/test" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1561082090463" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\github\odpt\api-impl\api-impl-odptdatacenter\src\test" />
+      <recent name="F:\github\odpt\api-impl\api-impl-tokyochallenge\src\test" />
+      <recent name="F:\github\odpt\api-impl\api-impl-odptdatacenter\src\main\java" />
+      <recent name="F:\github\odpt\api-impl\api-impl-tokyochallenge\src\main\java\com\github\teracy\odpt\api\tokychallenge" />
+      <recent name="F:\github\odpt\core-v4\core-v4-bus\src\main\java\com\github\teracy\odpt\core\v4\bus" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.OdptPassengerSurveyTest">
+    <configuration default="true" type="AndroidJUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.github.teracy.odpt.core.v4.train.response in core-v4-train" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-v4-train" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.teracy.odpt.core.v4.train.response.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.teracy.odpt.core.v4.train.response" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokyoChallengeBusApiClientDataVariationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.github.teracy.odpt.api.tokychallenge.TokyoChallengeBusApiClientDataVariationTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":api-impl:api-impl-tokyochallenge:cleanTest" />
+            <option value=":api-impl:api-impl-tokyochallenge:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TokyoChallengeTrainApiClientDataVariationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.github.teracy.odpt.api.tokychallenge.TokyoChallengeTrainApiClientDataVariationTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":api-impl:api-impl-tokyochallenge:cleanTest" />
+            <option value=":api-impl:api-impl-tokyochallenge:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OdptPassengerSurveyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-v4-train" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.teracy.odpt.core.v4.train.response.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.teracy.odpt.core.v4.train.response" />
+      <option name="MAIN_CLASS_NAME" value="com.github.teracy.odpt.core.v4.train.response.OdptPassengerSurveyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OdptRailDirectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core-v4-train" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.teracy.odpt.core.v4.train.response.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.teracy.odpt.core.v4.train.response" />
+      <option name="MAIN_CLASS_NAME" value="com.github.teracy.odpt.core.v4.train.response.OdptRailDirectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OdptPassengerSurveyTest" />
+        <item itemvalue="Android JUnit.com.github.teracy.odpt.core.v4.train.response in core-v4-train" />
+        <item itemvalue="JUnit.OdptRailDirectionTest" />
+        <item itemvalue="Gradle.TokyoChallengeTrainApiClientDataVariationTest" />
+        <item itemvalue="Gradle.TokyoChallengeBusApiClientDataVariationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b7d3ad8-4d1c-46a3-8b18-f9bdfd734fa4" name="Default Changelist" comment="" />
+      <created>1561081412863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561081412863</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="com_github_teracy_odpt_api_odptdatacenter_in_api-impl-odptdatacenter - 2019.06.21 at 13h 36m 15s.xml">
+      <configuration name="com.github.teracy.odpt.api.odptdatacenter in api-impl-odptdatacenter" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="TokyoChallengeBusApiClientDataVariationTest - 2019.06.21 at 13h 39m 21s.xml">
+      <configuration name="TokyoChallengeBusApiClientDataVariationTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TokyoChallengeTrainApiClientDataVariationTest - 2019.06.21 at 13h 45m 38s.xml">
+      <configuration name="TokyoChallengeTrainApiClientDataVariationTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="com_github_teracy_odpt_core_v4_train_response_in_core-v4-train - 2019.06.24 at 17h 11m 38s.xml">
+      <configuration name="com.github.teracy.odpt.core.v4.train.response in core-v4-train" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="com_github_teracy_odpt_core_v4_train_response_in_core-v4-train - 2019.06.24 at 17h 13m 09s.xml">
+      <configuration name="com.github.teracy.odpt.core.v4.train.response in core-v4-train" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="OdptPassengerSurveyTest - 2019.06.24 at 17h 13m 17s.xml">
+      <configuration name="OdptPassengerSurveyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OdptPassengerSurveyTest - 2019.06.24 at 17h 13m 26s.xml">
+      <configuration name="OdptPassengerSurveyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OdptRailDirectionTest - 2019.06.24 at 17h 13m 33s.xml">
+      <configuration name="OdptRailDirectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_github_teracy_odpt_core_v4_train_response_in_core-v4-train - 2019.06.24 at 17h 14m 17s.xml">
+      <configuration name="com.github.teracy.odpt.core.v4.train.response in core-v4-train" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="OdptPassengerSurveyTest - 2019.06.24 at 17h 14m 27s.xml">
+      <configuration name="OdptPassengerSurveyTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Build Variants" order="7" side_tool="true" />
+      <window_info id="Captures" order="8" side_tool="true" />
+      <window_info id="Resources Explorer" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="Android Profiler" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="12" />
+      <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Flutter Inspector" order="8" />
+      <window_info anchor="right" id="Device File Explorer" order="9" side_tool="true" />
+      <window_info anchor="right" id="Flutter Outline" order="10" />
+      <window_info anchor="right" id="Gradle" order="11" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle.kts" />
+    <entry file="file://$PROJECT_DIR$/app/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-tokyometro/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.dot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/dependency-graph/project.dot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/versions.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-common/src/main/java/com/github/teracy/odpt/core/v4/common/request/CalendarArgument.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-bus/src/main/java/com/github/teracy/odpt/core/v4/bus/request/BusArgument.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/main/java/com/github/teracy/odpt/core/v4/train/request/TrainArgument.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/main/java/com/github/teracy/odpt/core/v4/train/TrainDataPointApiService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/main/java/com/github/teracy/odpt/core/v4/train/TrainDataPointApiClient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-common/src/main/java/com/github/teracy/odpt/core/v4/common/CommonDataPointApiClient.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-bus/src/main/java/com/github/teracy/odpt/core/v4/bus/BusDataPointApiClient.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/test/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeBusApiClientTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+          <folding>
+            <element signature="e#50#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/test/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeTrainApiClientTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#50#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/main/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeApiClient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/main/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeBusApiClient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/main/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeCommonApiClient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/main/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeTrainApiClient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/src/main/java/OdptDataCenterApiClient.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/src/test/java/com/github/teracy/odpt/api/odptdatacenter/OdptDataCenterBusApiClientTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/src/test/java/com/github/teracy/odpt/api/odptdatacenter/OdptDataCenterCommonApiClientTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/src/test/java/com/github/teracy/odpt/api/odptdatacenter/OdptDataCenterTrainApiClientTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/test/resources/consumer_key.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="64" selection-start-column="64" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-odptdatacenter/src/test/resources/consumer_key.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/test/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeBusApiClientDataVariationTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#50#629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-impl/api-impl-tokyochallenge/src/test/java/com/github/teracy/odpt/api/tokychallenge/TokyoChallengeTrainApiClientDataVariationTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="215" column="7" selection-start-line="215" selection-start-column="7" selection-end-line="215" selection-end-column="7" />
+          <folding>
+            <element signature="e#50#631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/github/teracy/odpt/model/ApiClient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/github/teracy/odpt/model/OdptId.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptStationTest.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/test/java/com/github/teracy/odpt/model/OdptIdTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="674" selection-start-line="674" selection-end-line="674" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/main/java/com/github/teracy/odpt/core/v4/train/response/OdptStation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptStationTimetableTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="88" column="71" selection-start-line="88" selection-start-column="71" selection-end-line="88" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptRailDirectionTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-v4/core-v4-train/src/test/java/com/github/teracy/odpt/core/v4/train/response/OdptPassengerSurveyTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

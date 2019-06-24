@@ -77,7 +77,6 @@ class OdptStationTest {
             assertThat(station0.stationId.id).isEqualTo("odpt.Station:JR-East.Yamanote.Tokyo")
             assertThat(station0.operatorId.id).isEqualTo("odpt.Operator:JR-East")
             assertThat(station0.railwayId.id).isEqualTo("odpt.Railway:JR-East.Yamanote")
-            assertThat(station0.exitIdList).isNull()
             assertThat(station0.connectingRailwayIdList).isNull()
             assertThat(station0.stationTimetableIdList).isNull()
             assertThat(station0.passengerSurveyIdList).isNull()
