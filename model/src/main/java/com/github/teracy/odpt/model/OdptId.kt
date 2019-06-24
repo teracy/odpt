@@ -13,14 +13,32 @@ sealed class OdptId(val id: String) {
 }
 
 /**
- * 空港情報ID
+ * 空港ID
+ * @param id IDの値。命名ルール：「odpt.Airport:IATA空港コード(3レターコード)」
  */
-class AirportId(id: String) : OdptId(id)
+class AirportId(id: String) : OdptId(id) {
+    fun validate(): Boolean {
+        return "odpt.Airport:([A-Z]{3})".toRegex().matches(id)
+    }
+}
 
 /**
- * 空港ターミナル情報ID
+ * 空港ターミナルID
+ * @param id IDの値。命名ルール：「odpt.AirportTerminal.IATA空港コード(3レターコード).ターミナル 」
  */
-class AirportTerminalId(id: String) : OdptId(id)
+class AirportTerminalId(id: String) : OdptId(id) {
+    /**
+     * [空港ID][AirportId]に変換
+     */
+    fun toAirportId(): AirportId {
+        val airportName = id.split(":")[1].split(".")[0]
+        return AirportId("odpt.Airport:$airportName")
+    }
+
+    fun validate(): Boolean {
+        return "odpt.AirportTerminal:([A-Z]{3}).(.*)".toRegex().matches(id)
+    }
+}
 
 /**
  * バス方面ID
@@ -56,6 +74,7 @@ class BusId(id: String) : OdptId(id) {
  * バス路線ID
  * @param id IDの値。命名ルール例：「odpt.Busroute:会社名.路線名」
  * NOTE: APIで明確な命名ルールが定義されていない。基本的に会社毎に別の命名ルールであり、鉄道APIの駅時刻表情報ID→駅ID→路線ID→事業者IDのような他のIDの導出は不可能と考えた方が無難
+ * NOTE: バス路線IDは[バス系統ID][BusRoutePatternId]の上位概念であるが、単体で取得するAPIは存在しない
  */
 class BusRouteId(id: String) : OdptId(id)
 
@@ -141,29 +160,116 @@ class BusTimetableId(id: String) : OdptId(id) {
 class CalendarId(id: String) : OdptId(id)
 
 /**
- * 日ID
- */
-class DayId(id: String) : OdptId(id)
-
-/**
  * フライト到着情報ID
+ * @param id IDの値。命名ルール：「odpt.FlightInformationArrival:空港事業者または航空事業者.到着空港.フライト番号」。前記の命名ルールで重複が生じる場合は、末尾に .1, .2, .3, … をつけて区別する
+ * NOTE: APIリファレンスの命名ルールはtypoしているので修正してある
  */
-class FlightInformationArrivalId(id: String) : OdptId(id)
+class FlightInformationArrivalId(id: String) : OdptId(id) {
+    /**
+     * [事業者ID][OperatorId]に変換
+     */
+    fun toOperatorId(): OperatorId {
+        val operatorName = id.split(":")[1].split(".")[0]
+        return OperatorId("odpt.Operator:$operatorName")
+    }
+
+    /**
+     * [到着地の空港ID][AirportId]に変換
+     */
+    fun toArrivalAirportId(): AirportId {
+        val airportName = id.split(":")[1].split(".")[1]
+        return AirportId("odpt.Airport:$airportName")
+    }
+
+    /**
+     * フライト番号に変換
+     */
+    fun toFlightNumber(): String {
+        return id.split(":")[1].split(".")[2]
+    }
+
+    fun validate(): Boolean {
+        return "odpt.FlightInformationArrival:(.*).(.*).(.*)(\\.\\d*|)".toRegex().matches(id)
+    }
+}
 
 /**
  * フライト出発情報ID
+ * @param id IDの値。命名ルール：「odpt.FlightInformationDeparture:空港事業者または航空事業者.出発空港.フライト番号」。前記の命名ルールで重複が生じる場合は、末尾に .1, .2, .3, … をつけて区別する
+ * NOTE: APIリファレンスの命名ルールはtypoしているので修正してある
  */
-class FlightInformationDepartureId(id: String) : OdptId(id)
+class FlightInformationDepartureId(id: String) : OdptId(id) {
+    /**
+     * [事業者ID][OperatorId]に変換
+     */
+    fun toOperatorId(): OperatorId {
+        val operatorName = id.split(":")[1].split(".")[0]
+        return OperatorId("odpt.Operator:$operatorName")
+    }
+
+    /**
+     * [出発地の空港ID][AirportId]に変換
+     */
+    fun toDepartureAirportId(): AirportId {
+        val airportName = id.split(":")[1].split(".")[1]
+        return AirportId("odpt.Airport:$airportName")
+    }
+
+    /**
+     * フライト番号に変換
+     */
+    fun toFlightNumber(): String {
+        return id.split(":")[1].split(".")[2]
+    }
+
+    fun validate(): Boolean {
+        return "odpt.FlightInformationDeparture:(.*).(.*).(.*)(\\.\\d*|)".toRegex().matches(id)
+    }
+}
 
 /**
  * フライト時刻表ID
+ * @param id IDの値。命名ルール：「odpt.FlightSchedule:空港事業者または航空事業者.出発地の空港.目的地の空港.カレンダー情報」
  */
-class FlightScheduleId(id: String) : OdptId(id)
+class FlightScheduleId(id: String) : OdptId(id) {
+    /**
+     * [事業者ID][OperatorId]に変換
+     */
+    fun toOperatorId(): OperatorId {
+        val operatorName = id.split(":")[1].split(".")[0]
+        return OperatorId("odpt.Operator:$operatorName")
+    }
+
+    /**
+     * [出発地の空港ID][AirportId]に変換
+     */
+    fun toOriginAirportId(): AirportId {
+        val airportName = id.split(":")[1].split(".")[1]
+        return AirportId("odpt.Airport:$airportName")
+    }
+
+    /**
+     * [目的地の空港ID][AirportId]に変換
+     */
+    fun toDestinationAirportId(): AirportId {
+        val airportName = id.split(":")[1].split(".")[2]
+        return AirportId("odpt.Airport:$airportName")
+    }
+
+    fun validate(): Boolean {
+        return "odpt.FlightSchedule:(.*).(.*).(.*).(.*)".toRegex().matches(id)
+    }
+}
 
 /**
  * フライト状況ID
+ * @param id IDの値。命名ルール：「odpt.FlightStatus:フライト状況」
  */
-class FlightStatusId(id: String) : OdptId(id)
+class FlightStatusId(id: String) : OdptId(id) {
+    fun validate(): Boolean {
+        return "odpt.FlightStatus:(.*)".toRegex().matches(id)
+    }
+}
 
 /**
  * 事業者ID
@@ -176,6 +282,10 @@ class OperatorId(id: String) : OdptId(id) {
      */
     fun toTrainOwnerId(): TrainOwnerId {
         return TrainOwnerId("odpt.Operator".toRegex().replace(id, "odpt.TrainOwner"))
+    }
+
+    fun validate(): Boolean {
+        return "odpt.Operator:(.*)".toRegex().matches(id)
     }
 }
 
@@ -304,9 +414,23 @@ class RailwayId(id: String) : OdptId(id) {
 }
 
 /**
- * 駅施設ID
+ * 駅施設ID（v2版のみ）
+ * @param id IDの値。命名ルール：「odpt.StationFacility:会社名.駅名」
+ * NOTE:v2版でのみ有効
  */
-class StationFacilityId(id: String) : OdptId(id)
+class StationFacilityId(id: String) : OdptId(id) {
+    /**
+     * [事業者ID][OperatorId]に変換
+     */
+    fun toOperatorId(): OperatorId {
+        val operatorName = id.split(":")[1].split(".")[0]
+        return OperatorId("odpt.Operator:$operatorName")
+    }
+
+    fun validate(): Boolean {
+        return "odpt.StationFacility:(.*).(.*)".toRegex().matches(id)
+    }
+}
 
 /**
  * 駅ID
@@ -389,6 +513,14 @@ class TrainId(id: String) : OdptId(id) {
         return RailwayId("odpt.Railway:${split[0]}.${split[1]}")
     }
 
+    /**
+     * 列車番号に変換
+     */
+    fun toTrainNumber(): String {
+        val split = id.split(":")[1].split(".")
+        return split[2]
+    }
+
     fun validate(): Boolean {
         return "odpt.Train:(.*).(.*).(.*)".toRegex().matches(id)
     }
@@ -423,7 +555,7 @@ class TrainInformationId(id: String) : OdptId(id) {
 }
 
 /**
- * 列車所属会社ID
+ * 列車所属会社ID（v2版のみ）
  * @param id IDの値。命名ルール：「odpt.TrainOwner:会社名」
  * NOTE:v2版でのみ有効
  */
@@ -479,6 +611,14 @@ class TrainTimetableId(id: String) : OdptId(id) {
  * @param id IDの値。命名ルール：「odpt.TrainType:会社名.列車種別」
  */
 class TrainTypeId(id: String) : OdptId(id) {
+    /**
+     * [事業者ID][OperatorId]に変換
+     */
+    fun toOperatorId(): OperatorId {
+        val operatorName = id.split(":")[1].split(".")[0]
+        return OperatorId("odpt.Operator:$operatorName")
+    }
+
     fun validate(): Boolean {
         return "odpt.TrainType:(.*).(.*)".toRegex().matches(id)
     }
