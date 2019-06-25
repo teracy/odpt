@@ -6,6 +6,7 @@ include(
         "core-v4:core-v4-common",
         "core-v4:core-v4-train",
         "core-v4:core-v4-bus",
+        "core-v4:core-v4-airplane",
         "api-impl:api-impl-tokyochallenge",
         "api-impl:api-impl-odptdatacenter"
 )

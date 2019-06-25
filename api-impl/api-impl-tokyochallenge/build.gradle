@@ -12,6 +12,7 @@ dependencies {
     implementation project(":core-v4:core-v4-common")
     implementation project(":core-v4:core-v4-train")
     implementation project(":core-v4:core-v4-bus")
+    implementation project(":core-v4:core-v4-airplane")
     testImplementation project(":testutil")
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
