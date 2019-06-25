@@ -13,6 +13,10 @@ dependencies {
 
     testImplementation deps.junit
     testImplementation deps.assertj
+
+    // Moshi
+    implementation deps.moshi.runtime
+    implementation deps.moshi.kotlin
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8

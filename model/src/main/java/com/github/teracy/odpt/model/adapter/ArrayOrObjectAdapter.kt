@@ -1,4 +1,4 @@
-package com.github.teracy.odpt.core.v4.bus.adapter
+package com.github.teracy.odpt.model.adapter
 
 import com.squareup.moshi.*
 import java.io.IOException

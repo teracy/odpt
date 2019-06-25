@@ -5,7 +5,7 @@ import com.github.teracy.odpt.core.v4.bus.BusDataPointApiClient
 import com.github.teracy.odpt.core.v4.bus.BusDataPointApiService
 import com.github.teracy.odpt.core.v4.bus.BusPlaceApiClient
 import com.github.teracy.odpt.core.v4.bus.BusPlaceApiService
-import com.github.teracy.odpt.core.v4.bus.adapter.ArrayOrObjectAdapter
+import com.github.teracy.odpt.model.adapter.ArrayOrObjectAdapter
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.squareup.moshi.Moshi
 import okhttp3.OkHttpClient

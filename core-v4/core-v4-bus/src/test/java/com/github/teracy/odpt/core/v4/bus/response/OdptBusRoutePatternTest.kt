@@ -2,7 +2,7 @@ package com.github.teracy.odpt.core.v4.bus.response
 
 import com.github.teracy.odpt.core.geojson.adapter.GeometryAdapter
 import com.github.teracy.odpt.core.geojson.response.LineString
-import com.github.teracy.odpt.core.v4.bus.adapter.ArrayOrObjectAdapter
+import com.github.teracy.odpt.model.adapter.ArrayOrObjectAdapter
 import com.github.teracy.odpt.testutil.ApiResponseTest
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
