@@ -3,10 +3,12 @@ include(
         ":model",
         ":testutil",
         ":core-geojson",
+        "core-v2:core-v2-train",
         "core-v4:core-v4-common",
         "core-v4:core-v4-train",
         "core-v4:core-v4-bus",
         "core-v4:core-v4-airplane",
+        "api-impl:api-impl-tokyometro",
         "api-impl:api-impl-tokyochallenge",
         "api-impl:api-impl-odptdatacenter"
 )
